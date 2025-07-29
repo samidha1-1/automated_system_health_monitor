@@ -31,7 +31,7 @@ check_uptime(){
 	log "System Uptime: $UPTIME"
 }
 
-#ACtive Services samidha nitin wani
+#ACtive Services samidha nitin wani shudhodhan
 check_services(){
 	SERVICES=("nginx" "mysql")
 	for SERVICE in "${SERVICES[@]}"; do
