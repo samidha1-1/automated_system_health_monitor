@@ -40,7 +40,7 @@ check_services(){
 	done
 }
 
-#Log Analysis
+#Log Analysis samidha
 check_log(){
 	ERROR_COUNT=$(grep -i "error" /var/log/messages | wc -l)
 	FAILED_LOGINS=$(grep "Failed Password" /var/log/secure | wc -l)
